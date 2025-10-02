@@ -1,0 +1,26 @@
+section{
+    color:black;
+    text-align:center;
+    font-size:48px;
+}
+main{
+    background-image: url("Imagenes/Mapa-de-fondo.jpg");
+    background-size: contain;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("Imagenes/tabla.jpg");
+    background-size: contain;
+}
+h2{
+    color:black;
+    text-align:center;
+    font-size:32px;
+}
+h3{
+    color:black;
+    text-align:center;
+    font-size:20px;
+}
