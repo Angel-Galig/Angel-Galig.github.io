@@ -2,17 +2,97 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: none;
     background-image: url("Imagenes/tabla.jpg");
     background-size: contain;
 }
 main{
     border-top: 1px solid black;
-    background-image: url("Imagenes/Mapa-de-fondo.jpg");
+    background-image: url("Imagenes/DistritoMapa.2.0.png");
     background-repeat: no-repeat;
-    background-size:cover ;
-
+    background-size:100% ;
 }
-section#TextoPrincipal{
+.invisible{
+    display: none;
+}
+#Edificio5{
+    display: inline-block;
+    margin-bottom: 4em;
+    width: 30%;
+    height: 30%;
+}
+#Edificio5:hover {
+    filter: brightness(2) saturate(100%);
+    background-color: gray;
+    display: inline-block;
+    margin-bottom: 4em;
+    width: 30%;
+    height: 30%;
+}
+#Edificio1{
+    display: inline-block;
+    margin-left: 5em;
+    width: 30%;
+    height: 30%;
+}
+#Edificio1:hover{
+    filter: brightness(2) saturate(100%);
+    background-color: gray;
+    opacity: 75%;
+    display: inline-block;
+    margin-left: 5em;
+    width: 30%;
+    height: 30%;
+}
+#Edificio2{
+    display: inline-block;
+    margin-left: 2em;
+    margin-bottom: 1em;
+    width: 30%;
+    height: 30%;
+}
+#Edificio2:hover{
+    filter: brightness(2) saturate(100%);
+    background-color: gray;
+    display: inline-block;
+    margin-left: 2em;
+    margin-bottom: 1em;
+    width: 30%;
+    height: 30%;
+}
+#Edificio4{
+    display: inline-block;
+    margin-left: 1em;
+    margin-bottom: 3em;
+    width: 44%;
+    height: 44%;
+}
+#Edificio4:hover{
+    filter: brightness(2) saturate(100%);
+    background-color: gray;
+    display: inline-block;
+    margin-left: 1em;
+    margin-bottom: 3em;
+    width: 44%;
+    height: 44%;
+}    
+#Edificio3{
+    display: inline-block;
+    margin-bottom: 3em;
+    margin-left: 8.5%;
+    width: 44%;
+    height: 44%;
+}
+#Edificio3:hover{
+    filter: brightness(2) saturate(100%);
+    background-color: gray;
+    display: inline-block;
+    margin-bottom: 3em;
+    margin-left: 8.5%;
+    width: 44%;
+    height: 44%;
+}    
+ol{
     margin-left: 300px;
     margin-right: 300px;
     background-image: url("Imagenes/grid.png");
@@ -20,7 +100,7 @@ section#TextoPrincipal{
     background-size: 100% 100%;
     color:black;
     text-align:center;
-    font-size:48px;
+    font-size:3rem;
 }
 section.indice{
     background-image: url("Imagenes/grid\ para\ parrafo\ 1.png");
@@ -30,10 +110,13 @@ section.indice{
     text-align: center; 
 }
 h2{
-    text-decoration: underline solid blue;
-    color:blue;
+    font-family: "Kings";
+    text-decoration: underline solid rgb(85, 68, 45);
+    color:rgb(85, 68, 45);
+    color: rgb(73, 58, 25);
+  -webkit-text-stroke: 0.5px rgb(73, 58, 25);
     text-align:center;
-    font-size:32px;
+    font-size:2rem;
 }
 h2#creacion{
     color:red;
@@ -41,7 +124,8 @@ h2#creacion{
     
 }
 h3{
+    font-family: "MedievalSharp";
     color:black;
     text-align:center;
-    font-size:20px;
+    font-size:1rem;
 }
