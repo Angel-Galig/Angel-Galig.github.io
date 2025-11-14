@@ -8,90 +8,70 @@ header{
 }
 main{
     border-top: 1px solid black;
-    background-image: url("Imagenes/DistritoMapa.2.0.png");
+    background-image: url("Imagenes/DistritoMapa.3.0.png");
     background-repeat: no-repeat;
     background-size:100% ;
 }
-.invisible{
-    display: none;
+Section#ConjuntoDeEdificios1{
+font-size: 0;
 }
-#Edificio5{
-    display: inline-block;
-    margin-bottom: 4em;
-    width: 30%;
-    height: 30%;
+h3{
+    font-family: "MedievalSharp";
+    color:black;
+    text-align:center;
+    font-size:2rem;
+    animation: flotar 3s ease-in-out infinite;
 }
-#Edificio5:hover {
-    filter: brightness(2) saturate(100%);
-    background-color: gray;
+article.Edif{
+    background-size: 100%;
     display: inline-block;
-    margin-bottom: 4em;
-    width: 30%;
-    height: 30%;
+    background-repeat: no-repeat;
+    width: 20%;
+    font-size: 1.5rem;
+    font-weight:800;
+    opacity: 0%;
+    margin-bottom: 0;
 }
-#Edificio1{
-    display: inline-block;
-    margin-left: 5em;
-    width: 30%;
-    height: 30%;
+p.animacion{
+    animation: flotar 3s ease-in-out infinite;
 }
-#Edificio1:hover{
-    filter: brightness(2) saturate(100%);
-    background-color: gray;
-    opacity: 75%;
-    display: inline-block;
-    margin-left: 5em;
-    width: 30%;
-    height: 30%;
+article#Edificio5{
+    background-image: url("Imagenes/Edificio5.png");
+    margin-top: 0px;
+    margin-left: 1.65%;
+    padding: 4%;
+    vertical-align: top;
 }
-#Edificio2{
-    display: inline-block;
-    margin-left: 2em;
-    margin-bottom: 1em;
-    width: 30%;
-    height: 30%;
-}
-#Edificio2:hover{
-    filter: brightness(2) saturate(100%);
-    background-color: gray;
-    display: inline-block;
-    margin-left: 2em;
-    margin-bottom: 1em;
-    width: 30%;
-    height: 30%;
-}
-#Edificio4{
-    display: inline-block;
-    margin-left: 1em;
-    margin-bottom: 3em;
-    width: 44%;
-    height: 44%;
-}
-#Edificio4:hover{
-    filter: brightness(2) saturate(100%);
-    background-color: gray;
-    display: inline-block;
-    margin-left: 1em;
-    margin-bottom: 3em;
-    width: 44%;
-    height: 44%;
+article#Edificio1{
+    background-image: url("Imagenes/Edificio1.png");
+    margin-top: 0px;
+    margin-left: 6.6%;
+    padding: 4.7%;
+} 
+article#Edificio2{
+    background-image: url("Imagenes/Edificio2.png");
+    margin-top: 0;
+    margin-left: 6%;
+    padding: 3%;
+    vertical-align: top;
+} 
+article#Edificio4{
+    background-image: url("Imagenes/Edificio4.png");
+    margin-top: 3.75%;
+    padding: 12%;
+    margin-left: 1%;
+} 
+article#Edificio3{
+    background-image: url("Imagenes/Edificio3.png");
+    margin-left: 9%;
+    margin-top: 4.5%;
+    padding:12%;
+    vertical-align: top;
 }    
-#Edificio3{
-    display: inline-block;
-    margin-bottom: 3em;
-    margin-left: 8.5%;
-    width: 44%;
-    height: 44%;
+article.Edif:hover{
+    opacity: 100%;
+    filter: brightness(10);
 }
-#Edificio3:hover{
-    filter: brightness(2) saturate(100%);
-    background-color: gray;
-    display: inline-block;
-    margin-bottom: 3em;
-    margin-left: 8.5%;
-    width: 44%;
-    height: 44%;
-}    
 ol{
     margin-left: 300px;
     margin-right: 300px;
@@ -110,11 +90,11 @@ section.indice{
     text-align: center; 
 }
 h2{
+    margin-top: 0.4em;
     font-family: "Kings";
-    text-decoration: underline solid rgb(85, 68, 45);
-    color:rgb(85, 68, 45);
-    color: rgb(73, 58, 25);
-  -webkit-text-stroke: 0.5px rgb(73, 58, 25);
+    text-decoration: underline solid rgb(114, 13, 134);
+    color:rgb(114, 13, 134);
+  -webkit-text-stroke: 0.05px rgb(74, 10, 87);
     text-align:center;
     font-size:2rem;
 }
@@ -123,9 +103,24 @@ h2#creacion{
     text-decoration: underline red;
     
 }
-h3{
-    font-family: "MedievalSharp";
-    color:black;
-    text-align:center;
-    font-size:1rem;
+footer{
+    text-align: center;
+    font-style: "Kings";
+    font-size: 2em;
+    color: white;
+    background-image: url("Imagenes/tabla.jpg");
+    background-size: 100%;
+}
+a{
+    font-style:"King" ;
+    color: red;
+    text-decoration: none;
+}
+@keyframes flotar {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
 }
