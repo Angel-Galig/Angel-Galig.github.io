@@ -3,12 +3,12 @@ header{
     justify-content: center;
     align-items: center;
     margin: none;
-    background-image: url("Imagenes/tabla.jpg");
+    background-image: url("Imagenes/tabla.webp");
     background-size: contain;
 }
 main{
     border-top: 1px solid black;
-    background-image: url("Imagenes/DistritoMapa.3.0.png");
+    background-image: url("Imagenes/DistritoMapa.3.0.webp");
     background-repeat: no-repeat;
     background-size:100% ;
 }
@@ -36,33 +36,33 @@ p.animacion{
     animation: flotar 3s ease-in-out infinite;
 }
 article#Edificio5{
-    background-image: url("Imagenes/Edificio5.png");
+    background-image: url("Imagenes/Edificio5.webp");
     margin-top: 0px;
     margin-left: 1.65%;
     padding: 4%;
     vertical-align: top;
 }
 article#Edificio1{
-    background-image: url("Imagenes/Edificio1.png");
+    background-image: url("Imagenes/Edificio1.webp");
     margin-top: 0px;
     margin-left: 6.6%;
     padding: 4.7%;
 } 
 article#Edificio2{
-    background-image: url("Imagenes/Edificio2.png");
+    background-image: url("Imagenes/Edificio2.webp");
     margin-top: 0;
     margin-left: 6%;
     padding: 3%;
     vertical-align: top;
 } 
 article#Edificio4{
-    background-image: url("Imagenes/Edificio4.png");
+    background-image: url("Imagenes/Edificio4.webp");
     margin-top: 3.75%;
     padding: 12%;
     margin-left: 1%;
 } 
 article#Edificio3{
-    background-image: url("Imagenes/Edificio3.png");
+    background-image: url("Imagenes/Edificio3.webp");
     margin-left: 9%;
     margin-top: 4.5%;
     padding:12%;
@@ -75,7 +75,7 @@ article.Edif:hover{
 ol{
     margin-left: 300px;
     margin-right: 300px;
-    background-image: url("Imagenes/grid.png");
+    background-image: url("Imagenes/grid.webp");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     color:black;
@@ -83,7 +83,7 @@ ol{
     font-size:3rem;
 }
 section.indice{
-    background-image: url("Imagenes/grid\ para\ parrafo\ 1.png");
+    background-image: url("Imagenes/grid\ para\ parrafo\ 1.webp");
     background-size:100% 100%;
     background-position:bottom;
     background-repeat: no-repeat;
@@ -108,7 +108,7 @@ footer{
     font-style: "Kings";
     font-size: 2em;
     color: white;
-    background-image: url("Imagenes/tabla.jpg");
+    background-image: url("Imagenes/tabla.webp");
     background-size: 100%;
 }
 a{

@@ -1,13 +1,13 @@
 body {
     margin: 0;
-    background-image: url("../Imagenes/Mapa-de-fondo.jpg");
+    background-image: url("../Imagenes/Mapa-de-fondo.webp");
     background-size: cover;
     background-position: center;
     background-color: black;
 }
 
 header {
-    background-image: url("../Imagenes/tabla.jpg");
+    background-image: url("../Imagenes/tabla.webp");
     background-size: cover;
     background-position: center;
     color: rgb(212, 165, 103);
@@ -20,7 +20,7 @@ h1 {
 }
 
 main {
-    background-image: url("../Imagenes/grid para parrafo 1.png");
+    background-image: url("imagenesEnlaces/grid\ para\ parrafo\ 1.webp");
     background-repeat: no-repeat;
     margin-top: 10%;
     background-size: 80%;

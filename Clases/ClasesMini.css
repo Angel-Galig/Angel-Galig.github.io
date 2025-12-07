@@ -1,0 +1,60 @@
+header{
+    background-image:url("ImagenesClasesMini/tabla.webp");
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position: auto;
+    margin-bottom: 20px;
+}
+header>img:nth-of-type(1){
+    width: 25%;
+    margin-left: 37.5%;
+    margin-right: 37.5%;
+}
+ol{
+    font-size: 0px;
+}
+li{
+    display: inline-block;
+    font-family: "kings";
+    font-size: 32px;
+    width: calc(100%/6);
+    color: rgb(216, 130, 18);
+    text-align: center;
+    margin-bottom: 50px;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+body{
+    background-image: url("ImagenesClasesMini/Mapa-de-fondo.jpg");
+    background-size: 100%;
+    background-position: auto;
+}
+section>article:nth-of-type(1){
+    background-image: url("ImagenesClasesMini/tabla.webp");
+    background-size: 60%;
+    background-position: auto;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+article{
+    color: white;
+    font-size: 30px;
+    font-family: "Macondo Swash Caps";
+}
+article:nth-of-type(1){
+    padding-top: 20px;
+}
+article>p:nth-of-type(1){
+    padding-top: 5%;
+    padding-bottom: 6%;
+}
+img#imagenDado{
+    width: 20%;
+    float: left;
+}
+img#imagenDeco{
+    width: 100vw;
+}
