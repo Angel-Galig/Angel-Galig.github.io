@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    background-image: url("../Imagenes/Mapa-de-fondo.webp");
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+}
+
+header {
+    background-image: url("../Imagenes/tabla.webp");
+    background-size: cover;
+    background-position: center;
+    color: rgb(212, 165, 103);
+    font-family: "Kings", sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    background-image: url("imagenesEnlaces/grid\ para\ parrafo\ 1.webp");
+    background-repeat: no-repeat;
+    margin-top: 10%;
+    background-size: 80%;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0px;
+}
+
+article {
+    color: black;
+    font-size: 16px;
+    display: inline-block;
+    text-align: center;
+    width: calc(80%/3);
+    vertical-align: top;
+}
+article:nth-of-type(1){
+    margin-left: 10%;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+p#Enlace{
+    width: 100%;
+    color: red;
+    display: block;
+    /*Le pongo un block y pasa de mi*/
+}

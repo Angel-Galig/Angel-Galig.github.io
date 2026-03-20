@@ -1,0 +1,161 @@
+@media screen and (max-width: 1000px){
+header{
+    background-size: 120%;
+    background-position: auto;
+    margin-bottom: 20px;
+}
+header>img:nth-of-type(1){
+    width: 25%;
+    margin-left: 37.5%;
+    margin-right: 37.5%;
+}
+h2{
+    font-family: "kings";
+    font-size: 32px;
+    color: rgb(150, 17, 17);
+    width: 80%;
+    background-image: url("../ImagenesClasesMini/tabla.webp");
+    border-radius: 5%;
+}
+h3{
+    font-family: "kings";
+    font-size: 20px;
+    color: rgb(150, 17, 17);
+    width: 80%;
+    background-image: url("../ImagenesClasesMini/tabla.webp");
+    border-radius: 5%;
+}
+ol{
+    font-size: 0px;
+    text-align: center;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+li{
+    font-family: "Macondo Swash Caps";
+    font-size: 16px;
+    color: rgb(216, 130, 18);
+    text-align: center;
+    margin-bottom: 50px;
+}
+li>p:nth-of-type{
+    color: rgb(155, 155, 155);
+    width: 80%;
+    background-image: url("../../ImagenesClasesMini/tabla.webp");
+    border-radius: 5%;
+}
+li>p:nth-of-type(even){
+    color: rgb(26, 26, 26);
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+body{
+    background-image: url("../../ImagenesClasesMini/Mapa-de-fondo.webp");
+    background-size: 100%;
+    background-position: auto;
+}
+article{
+    color: rgb(165, 91, 21);
+    font-size: 16px;
+    font-family: "Macondo Swash Caps";
+    text-align: center;
+    background-image: url("../../ImagenesClasesMini/grid.webp");
+    background-size: contain;
+}
+article>img{
+        padding: 2%;
+        width: 96%;
+}
+}
+@media screen and (min-width: 1000px){
+header{
+    background-size: 120%;
+    background-position: auto;
+    margin-bottom: 20px;
+}
+header>img:nth-of-type(1){
+    width: 25%;
+    margin-left: 37.5%;
+    margin-right: 37.5%;
+}
+div{
+    background-image: url("../../ImagenesClasesMini/tabla.webp");
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+}
+div li{
+    font-size: 32px;
+}
+h2{
+    font-family: "kings";
+    font-size: 64px;
+    color: rgb(150, 17, 17);
+    width: 100%;
+    background-image: url("../../ImagenesClasesMini/tabla.webp");
+    border-radius: 15%;
+    align-self: center;
+    text-align: center;
+}
+h3{
+    font-family: "kings";
+    font-size: 20px;
+    color: rgb(150, 17, 17);
+    width: 100%;
+    background-image: url("../../ImagenesClasesMini/tabla.webp");
+    border-radius: 15%;
+}
+ol{
+    font-size: 0px;
+    text-align: center;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+li{
+    font-family: "Macondo Swash Caps";
+    font-size: 16px;
+    color: rgb(216, 130, 18);
+    text-align: center;
+    margin-bottom: 50px;
+}
+li>p{
+    color: rgb(155, 155, 155);
+    width: 80%;
+    background-image: url("../../ImagenesClasesMini/tabla.webp");
+    border-radius: 15%;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+body{
+    background-image: url("../../ImagenesClasesMini/Mapa-de-fondo.webp");
+    background-size: 100%;
+    background-position: auto;
+}
+section{
+    display: flex;
+    flex-direction: column;
+}
+article{
+    color: rgb(94, 39, 26);
+    font-weight: 800;
+    font-size: 16px;
+    font-family: "Macondo Swash Caps";
+    text-align: center;
+    background-image: url("../../ImagenesClasesMini/grid\ para\ parrafo\ 1.webp");
+    background-size: 100%;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+article>img{
+        padding: 2%;
+        width: 96%;
+}
+}
